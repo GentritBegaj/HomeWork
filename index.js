@@ -112,7 +112,7 @@
       let inputField = document.querySelector('#input-field')
 
       inputField.onkeypress = function (event) {
-        console.log(event);
+        console.log(event.key);
       }
 // };
       /* EXERCISE 12
